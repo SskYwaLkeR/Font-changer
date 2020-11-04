@@ -6,7 +6,14 @@
     "browser_action":{
         "default_popup": "popup.html"
     },
-    "permission":["activeTab", "<all_urls>"]
+    "permission":["activeTab", "<all_urls>"],
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["override.js"]
+
+        } 
+   ]
    
 
 }
