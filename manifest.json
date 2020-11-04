@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Font Changer",
+    "version": "1.0.0",
+    "description": "An extension to change fonts of web page for better readability",
+    "browser_action":{
+        "default_popup": "popup.html"
+    }
+
+}
