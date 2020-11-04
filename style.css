@@ -5,8 +5,8 @@
 }
 
 .popup-container{
-    width: 200px;
-    height: 120px;
+    width: 180px;
+    height: 100px;
     background-color: #1a202c;
     display: flex;
     justify-content: center;
@@ -30,5 +30,5 @@
 
 #popup-btn:hover{
     cursor: pointer;
-    background-color: #d53a9d;
+    background-color: #ff335fe7;
 }
