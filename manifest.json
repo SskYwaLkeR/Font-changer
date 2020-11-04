@@ -6,7 +6,7 @@
     "browser_action":{
         "default_popup": "popup.html"
     },
-    "permission":["activeTab", "<all_urls>"],
+    "permissions":["activeTab", "<all_urls>"],
     "content_scripts":[
         {
             "matches":["<all_urls>"],
